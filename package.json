@@ -1,0 +1,18 @@
+{
+  "name": "proyecto-14-calculadora-edad",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calculadora de edad con HTML, CSS, JavaScript, Luxon y Flatpickr",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "luxon": "^3.5.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
