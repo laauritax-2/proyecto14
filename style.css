@@ -1,0 +1,186 @@
+
+/* Configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.pagina {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Tarjeta principal */
+.calculadora {
+    background: #ffffff;
+    max-width: 460px;
+    margin: auto;
+    padding: 35px;
+    border-radius: 16px;
+    text-align: center;
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.10);
+}
+
+/* Encabezado */
+.encabezado h1 {
+    color: #252b36;
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+
+.encabezado p {
+    color: #777777;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Campo de fecha */
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    background: #ffffff;
+}
+
+/* Cuando seleccionamos el campo */
+input:focus {
+    border-color: #3157c8;
+    box-shadow: 0 0 0 3px rgba(49, 87, 200, 0.12);
+}
+
+/* Texto de ayuda */
+#ayuda-fecha {
+    color: #888888;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+/* Botón */
+button {
+    background: #3157c8;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Efecto del botón */
+button:hover {
+    background: #2445a8;
+}
+
+/* Resultado */
+.resultado {
+    margin-top: 30px;
+}
+
+/* Título del resultado */
+.resultado h2 {
+    color: #252b36;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de los datos */
+.edad {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Tarjetas de años, meses y días */
+.dato {
+    background: #eef2ff;
+    flex: 1;
+    padding: 18px 8px;
+    border-radius: 10px;
+}
+
+/* Números */
+.dato strong {
+    display: block;
+    font-size: 28px;
+    color: #0a0a0a;
+    margin-bottom: 5px;
+}
+
+/* Descripciones */
+.dato span {
+    color: #555555;
+    font-size: 14px;
+}
+
+/* Mensaje de edad */
+#mensaje-edad {
+    color: #555555;
+    margin-top: 18px;
+    line-height: 1.5;
+}
+
+/* Mensajes de error */
+.mensaje-error {
+    color: #d62828;
+    margin-bottom: 12px;
+    min-height: 18px;
+}
+
+/* Pie de página */
+.pie {
+    margin-top: 25px;
+    color: #888888;
+    font-size: 12px;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 400px) {
+
+    .calculadora {
+        padding: 22px;
+    }
+
+    .encabezado h1 {
+        font-size: 23px;
+    }
+
+    .dato {
+        padding: 15px 5px;
+    }
+
+    .dato strong {
+        font-size: 23px;
+    }
+}
