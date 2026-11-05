@@ -1,0 +1,75 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef1f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta principal */
+.card {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h2 {
+    color: #26354a;
+    margin-bottom: 25px;
+}
+
+/* Etiqueta */
+label {
+    display: block;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Campo de fecha */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #030303;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #515358;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    color: #26354a;
+    font-size: 16px;
+    line-height: 1.5;
+}

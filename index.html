@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Edad con Luxon</title>
+  <!-- CDN de Luxon -->
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h2>Calculadora de edad</h2>
+    <label for="fechaNacimiento">Fecha de nacimiento:</label>
+    <input type="date" id="fechaNacimiento">
+    <button onclick="calcularEdad()">Calcular</button>
+    
+    <p id="resultado"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
